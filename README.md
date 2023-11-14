@@ -1,25 +1,25 @@
 Link para documento com normas ABNT: 
 
-# Projeto de Monitoramento de Temperatura com Raspberry Pi Pico
+# Projeto de Monitoramento de Temperatura e Umidade com Raspberry Pi Pico
 
-## Descrição
-- Este projeto utiliza o Raspberry Pi Pico para ler a temperatura de um ambiente usando o sensor de temperatura DS18B20. Os dados de temperatura são coletados e podem ser visualizados em tempo real.
+## Descrição:
 
-- ## Componentes:
-  - Raspberry Pi Pico
-  - Sensor de temperatura DS18B20
-  - Resistor de 4.7kΩ
-  - Cabos de conexão
-    
+- Este projeto utiliza o Raspberry Pi Pico para medir a temperatura e a umidade de um ambiente usando o sensor de temperatura e umidade DHT11. Os dados de temperatura e umidade são coletados e podem ser visualizados em tempo real.
+  
+## Componentes:
+- Raspberry Pi Pico
+- Sensor de temperatura e umidade DHT11
+- Cabos de conexão
+  
 ## Configuração do Hardware:
-  - Conecte o sensor DS18B20 ao Raspberry Pi Pico:
-    - VCC do sensor ao 3.3V do Pico
-    - GND do sensor ao GND do Pico
-    - DQ do sensor ao pino GPIO15 do Pico
-    - Coloque um resistor de 4.7kΩ entre VCC e DQ para atuar como pull-up
-      
+- Conecte o sensor DHT11 ao Raspberry Pi Pico:
+- VCC do sensor ao 3.3V do Pico
+- GND do sensor ao GND do Pico
+- Out (sinal) do sensor ao pino GPIO4 do Pico
+  
 ## Instalação de Software:
-  - Certifique-se de que o MicroPython está instalado no seu Raspberry Pi Pico. O código para ler os dados do sensor DS18B20 está escrito em Python.
-
+- Assegure-se de que o MicroPython está instalado no seu Raspberry Pi Pico. O código para ler os dados do sensor DHT11 está escrito em Python.
+  
 ## Como Usar:
-  - Para usar este projeto, carregue o código Python no Raspberry Pi Pico usando uma IDE como Thonny ou outra compatível com MicroPython.
+Para utilizar este projeto, carregue o código Python no Raspberry Pi Pico usando uma IDE como Thonny ou outra compatível com MicroPython.
+Este documento reflete as normas da ABNT para a apresentação de projetos técnicos, com foco no uso do sensor DHT11 em conjunto com o Raspberry Pi Pico.
